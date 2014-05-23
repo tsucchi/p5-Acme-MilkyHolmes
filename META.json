@@ -4,7 +4,7 @@
       "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.14.1, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "Minilla/v1.0.0, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "perl_5"
    ],
