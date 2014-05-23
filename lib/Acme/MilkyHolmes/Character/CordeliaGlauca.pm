@@ -23,9 +23,9 @@ voiced_by: Izumi Kitta
 toys: Hyper Sensitive
 
 @@ ja
-name: コーデリア・グラウカ
 surname: コーデリア
 familyname: グラウカ
 birthday: 12/19
 voiced_by: 橘田 いずみ
 toys: ハイパーセンシティブ
+name_separator: ・
