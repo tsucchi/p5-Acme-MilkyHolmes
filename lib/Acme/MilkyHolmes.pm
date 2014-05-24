@@ -62,11 +62,86 @@ Acme::MilkyHolmes - There's more than one way to do it!(seikai ha hitotsu! janai
 
 =head1 SYNOPSIS
 
+    use strict;
+    use warnings;
+    use utf8;
     use Acme::MilkyHolmes;
+
+    # fetch members of Milky Holmes
+    my ($sherlock, $nero, $elly, $cordelia)  = Acme::MilkyHolmes->members();
+    $sherlock->say('ってなんでですかー');
+    $nero->say('僕のうまうま棒〜');
+    $elly->say('恥ずかしい...');
+    $cordelia->say('私の...お花畑...');
+
+    # create character instance directly
+    my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
+    $sherlock->locale('en');
+    $sherlock->name;       # => 'Sherlock Shellingford'
+    $sherlock->surname;    # => 'Sherlock'
+    $sherlock->familyname; # => 'Shellingford'
+    $sherlock->nickname;   # => 'Sheryl'
+    $sherlock->birthday;   # => 'March 31'
+    $sherlock->voiced_by;  # => 'Suzuko Mimori'
+    $sherlock->toys;       # => 'Psychokinesis'
+    $sherlock->color;      # => 'pink'
+
+    # fetch each team members
+    use Acme::MilkyHolmes qw($MilkyHolmes $MilkyHolmesFeathers $MilkyHolmesSisters);
+    my ($sherlock, $nero, $elly, $cordelia) = Acme::MilkyHolmes->members_of($MilkyHolmes); # same as members()
+    my ($kazumi, $alice) = Acme::MilkyHolmes->members_of($MilkyHolmesFeathers);
+    my ($sherlock, $nero, $elly, $cordelia, $kazumi, $alice) = Acme::MilkyHolmes->members_of($MilkyHolmesSisters);
 
 =head1 DESCRIPTION
 
-Acme::MilkyHolmes is ...
+Milky Holmes is one of the most famous Japanese TV animation. Acme::MilkyHolmes provides character information of Milky Holmes.
+
+=head1 METHODS
+
+=head2 members(%options)
+
+options: locale(ja, en) default is ja
+
+    my @members = Acme::MilkyHolmes->members(locale => en);
+
+fetch Milky Holmes members. See SYNOPSIS.
+
+=head2 members_of($member_name_const, %options)
+
+options: locale(ja, en) default is ja
+
+fetch members specified in C<$member_name_const>. See SYNOPSIS and EXPORTED CONSTANTS
+
+
+=head1 EXPORTED CONSTANTS
+
+=over 4
+
+=item * C<$MilkyHolmes> : members of Milky Holmes (Sherlock, Nero, Elly and Cordelia).
+
+=item * C<$MilkyHolmesFeathers> : members of Milky Holmes Feathers (Kazumi and Alice).
+
+=item * C<$MilkyHolmesSisters> : members of Milky Holmes Sisters (Sherlock, Nero, Elly, Cordelia, Kazumi and Alice)
+
+=back
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * Milky Holmes Official Site
+
+L<http://milky-holmes.com/>
+
+=item * Project Milky Holmes (Wikipedia - ja)
+
+L<http://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%AB%E3%82%AD%E3%82%A3%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA>
+
+=item * Milky Holmes (Wikipedia - en)
+
+L<http://en.wikipedia.org/wiki/Tantei_Opera_Milky_Holmes>
+
+=back
 
 =head1 LICENSE
 
