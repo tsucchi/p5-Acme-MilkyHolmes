@@ -17,7 +17,6 @@ color_enable: 0
 
 @@ en
 ---
-name: Kazumi Tokiwa
 surname: Kazumi
 familyname: Tokiwa
 birthday:
@@ -26,7 +25,6 @@ toys: Arrow
 
 @@ ja
 ---
-name: 常盤 カズミ
 surname: カズミ
 familyname: 常盤
 birthday:

@@ -15,13 +15,13 @@ color: pink
 
 @@ en
 ---
-name: Sherlock Shellingford
 surname: Sherlock
 familyname: Shellingford
 nickname: Sheryl
 birthday: March 31
 voiced_by: Suzuko Mimori
 toys: Psychokinesis
+
 
 @@ ja
 ---

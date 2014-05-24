@@ -13,7 +13,6 @@ __DATA__
 color: green
 
 @@ en
-name: Hercule Barton
 surname: Hercule
 familyname: Barton
 nickname: Elly

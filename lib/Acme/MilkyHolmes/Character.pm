@@ -24,13 +24,20 @@ has common => (
 
 sub name {
     my ($self) = @_;
+
+    my $sep = $self->_localized_field('name_separator');
+    $sep = ' ' if ( !defined $sep );
+
     if ( defined $self->_localized_field('name') ) {
         return $self->_localized_field('name');
     }
-    elsif ( $self->locale eq 'ja' && defined $self->_localized_field('name_separator') && $self->_localized_field('name_separator') eq '・' ) {
-        return $self->surname . $self->_localized_field('name_separator') . $self->familyname;
+    elsif ( $self->locale eq 'ja' ) {
+        if( defined $sep && $sep eq '・' ) {
+            return $self->surname . $sep . $self->familyname;
+        }
+        return $self->familyname . $sep . $self->surname;
     }
-
+    return $self->surname . $sep . $self->familyname;
 }
 
 sub surname {

@@ -4,7 +4,6 @@ extends 'Acme::MilkyHolmes::Group::MilkyHolmes';
 
 use utf8;
 
-
 __PACKAGE__->meta->make_immutable();
 
 1;
@@ -15,7 +14,6 @@ __DATA__
 color: blue
 
 @@ en
-name: Cordelia Glauca
 surname: Cordelia
 familyname: Glauca
 birthday: December 19
