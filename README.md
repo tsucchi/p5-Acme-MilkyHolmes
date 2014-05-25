@@ -9,8 +9,8 @@ Acme::MilkyHolmes - There's more than one way to do it!(seikai ha hitotsu! janai
     use utf8;
     use Acme::MilkyHolmes;
 
-    # fetch members of Milky Holmes
-    my ($sherlock, $nero, $elly, $cordelia)  = Acme::MilkyHolmes->members();
+    # fetch members of Milky Holmes(eg/say.pl)
+    my ($sherlock, $nero, $elly, $cordelia) = Acme::MilkyHolmes->members();
     $sherlock->say('ってなんでですかー');
     $nero->say('僕のうまうま棒〜');
     $elly->say('恥ずかしい...');
@@ -40,17 +40,17 @@ Milky Holmes is one of the most famous Japanese TV animation. Acme::MilkyHolmes 
 
 # METHODS
 
-## members(%options)
+## `members(%options)`
 
-options: locale(ja, en) default is ja
+options: `$options{locale} = ja,en` default is ja
 
     my @members = Acme::MilkyHolmes->members(locale => en);
 
 fetch Milky Holmes members. See SYNOPSIS.
 
-## members\_of($member\_name\_const, %options)
+## `members_of($member_name_const, %options)`
 
-options: locale(ja, en) default is ja
+options: `$options{locale} = ja,en` default is ja
 
 fetch members specified in `$member_name_const`. See SYNOPSIS and EXPORTED CONSTANTS
 
