@@ -20,7 +20,7 @@ Acme::MilkyHolmes - There's more than one way to do it!(seikai ha hitotsu! janai
     my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
     $sherlock->locale('en');
     $sherlock->name;       # => 'Sherlock Shellingford'
-    $sherlock->surname;    # => 'Sherlock'
+    $sherlock->firstname;  # => 'Sherlock'
     $sherlock->familyname; # => 'Shellingford'
     $sherlock->nickname;   # => 'Sheryl'
     $sherlock->birthday;   # => 'March 31'
