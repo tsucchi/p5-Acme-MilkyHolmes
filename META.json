@@ -44,6 +44,15 @@
       },
       "runtime" : {
          "requires" : {
+            "Data::Section::Simple" : "0",
+            "Encode" : "0",
+            "Localizer::Resource" : "0",
+            "Localizer::Style::Gettext" : "0",
+            "Mouse" : "0",
+            "Mouse::Role" : "0",
+            "Readonly" : "0",
+            "YAML::Tiny" : "0",
+            "parent" : "0",
             "perl" : "5.008005"
          }
       },
