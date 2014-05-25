@@ -15,7 +15,7 @@ color: pink
 
 @@ en
 ---
-surname: Sherlock
+firstname: Sherlock
 familyname: Shellingford
 nickname: Sheryl
 birthday: March 31
@@ -25,7 +25,7 @@ toys: Psychokinesis
 
 @@ ja
 ---
-surname: シャーロック
+firstname: シャーロック
 familyname: シェリンフォード
 nickname: シャロ
 birthday: 3/31

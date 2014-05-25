@@ -14,7 +14,7 @@ color: yellow
 
 @@ en
 ---
-surname: Nero
+firstname: Nero
 familyname: Yuzurizaki
 birthday: August 28
 voiced_by: Sora Tokui
@@ -22,7 +22,7 @@ toys: Direct Hack
 
 @@ ja
 ---
-surname: ネロ
+firstname: ネロ
 familyname: 譲崎
 birthday: 8/28
 voiced_by: 徳井 青空

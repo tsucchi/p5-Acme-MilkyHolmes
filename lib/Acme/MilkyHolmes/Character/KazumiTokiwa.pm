@@ -17,7 +17,7 @@ color_enable: 0
 
 @@ en
 ---
-surname: Kazumi
+firstname: Kazumi
 familyname: Tokiwa
 birthday:
 voiced_by: Aimi
@@ -25,7 +25,7 @@ toys: Arrow
 
 @@ ja
 ---
-surname: カズミ
+firstname: カズミ
 familyname: 常盤
 birthday:
 voiced_by: 愛美

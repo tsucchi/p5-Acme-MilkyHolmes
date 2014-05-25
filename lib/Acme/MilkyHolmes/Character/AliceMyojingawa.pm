@@ -17,7 +17,7 @@ color_enable: 0
 
 @@ en
 ---
-surname: Alice
+firstname: Alice
 familyname: Myojingawa
 birthday:
 voiced_by: Ayasa Itoh
@@ -25,7 +25,7 @@ toys: Bound
 
 @@ ja
 ---
-surname: アリス
+firstname: アリス
 familyname: 明神川
 birthday:
 voiced_by: 伊藤 彩沙

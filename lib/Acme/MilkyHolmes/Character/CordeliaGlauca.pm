@@ -14,14 +14,14 @@ __DATA__
 color: blue
 
 @@ en
-surname: Cordelia
+firstname: Cordelia
 familyname: Glauca
 birthday: December 19
 voiced_by: Izumi Kitta
 toys: Hyper Sensitive
 
 @@ ja
-surname: コーデリア
+firstname: コーデリア
 familyname: グラウカ
 birthday: 12/19
 voiced_by: 橘田 いずみ

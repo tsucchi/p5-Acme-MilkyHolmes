@@ -33,16 +33,16 @@ sub name {
     }
     elsif ( $self->locale eq 'ja' ) {
         if( defined $sep && $sep eq '・' ) {
-            return $self->surname . $sep . $self->familyname;
+            return $self->firstname . $sep . $self->familyname;
         }
-        return $self->familyname . $sep . $self->surname;
+        return $self->familyname . $sep . $self->firstname;
     }
-    return $self->surname . $sep . $self->familyname;
+    return $self->firstname . $sep . $self->familyname;
 }
 
-sub surname {
+sub firstname {
     my ($self) = @_;
-    return $self->_localized_field('surname');
+    return $self->_localized_field('firstname');
 }
 
 sub familyname {
@@ -55,7 +55,7 @@ sub nickname {
     if ( defined $self->_localized_field('nickname') ) {
         return $self->_localized_field('nickname');
     }
-    return $self->_localized_field('surname');
+    return $self->_localized_field('firstname');
 }
 
 sub birthday {

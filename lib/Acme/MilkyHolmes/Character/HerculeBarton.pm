@@ -13,7 +13,7 @@ __DATA__
 color: green
 
 @@ en
-surname: Hercule
+firstname: Hercule
 familyname: Barton
 nickname: Elly
 birthday: October 21
@@ -21,7 +21,7 @@ voiced_by: Mikoi Sasaki
 toys: Tri-Ascend
 
 @@ ja
-surname: エルキュール
+firstname: エルキュール
 familyname: バートン
 nickname: エリー
 birthday: 10/21

@@ -88,7 +88,7 @@ subtest 'Sherlock', sub {
         my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
         $sherlock->locale('en');
         is( $sherlock->name,       'Sherlock Shellingford' );
-        is( $sherlock->surname,    'Sherlock' );
+        is( $sherlock->firstname,  'Sherlock' );
         is( $sherlock->familyname, 'Shellingford' );
         is( $sherlock->nickname,   'Sheryl' );
         is( $sherlock->birthday,   'March 31' );
@@ -102,7 +102,7 @@ subtest 'Sherlock', sub {
         my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
         is( $sherlock->locale,     'ja' );
         is( $sherlock->name,       'シャーロック・シェリンフォード' );
-        is( $sherlock->surname,    'シャーロック' );
+        is( $sherlock->firstname,  'シャーロック' );
         is( $sherlock->familyname, 'シェリンフォード' );
         is( $sherlock->nickname,   'シャロ' );
         is( $sherlock->birthday,   '3/31' );
@@ -120,7 +120,7 @@ subtest 'Nero', sub {
         my $nero = Acme::MilkyHolmes::Character::NeroYuzurizaki->new();
         $nero->locale('en');
         is( $nero->name,       'Nero Yuzurizaki' );
-        is( $nero->surname,    'Nero' );
+        is( $nero->firstname,  'Nero' );
         is( $nero->familyname, 'Yuzurizaki' );
         is( $nero->nickname,   'Nero' );
         is( $nero->birthday,   'August 28' );
@@ -134,7 +134,7 @@ subtest 'Nero', sub {
         my $nero = Acme::MilkyHolmes::Character::NeroYuzurizaki->new();
         is( $nero->locale,     'ja' );
         is( $nero->name,       '譲崎 ネロ' );
-        is( $nero->surname,    'ネロ' );
+        is( $nero->firstname,  'ネロ' );
         is( $nero->familyname, '譲崎' );
         is( $nero->nickname,   'ネロ' );
         is( $nero->birthday,   '8/28' );
@@ -151,7 +151,7 @@ subtest 'Elly', sub {
         my $elly = Acme::MilkyHolmes::Character::HerculeBarton->new();
         $elly->locale('en');
         is( $elly->name,       'Hercule Barton' );
-        is( $elly->surname,    'Hercule' );
+        is( $elly->firstname,  'Hercule' );
         is( $elly->familyname, 'Barton' );
         is( $elly->nickname,   'Elly' );
         is( $elly->birthday,   'October 21' );
@@ -165,7 +165,7 @@ subtest 'Elly', sub {
         my $elly = Acme::MilkyHolmes::Character::HerculeBarton->new();
         is( $elly->locale,     'ja' );
         is( $elly->name,       'エルキュール・バートン' );
-        is( $elly->surname,    'エルキュール' );
+        is( $elly->firstname,  'エルキュール' );
         is( $elly->familyname, 'バートン' );
         is( $elly->nickname,   'エリー' );
         is( $elly->birthday,   '10/21' );
@@ -181,7 +181,7 @@ subtest 'Cordelia', sub {
         my $cordelia = Acme::MilkyHolmes::Character::CordeliaGlauca->new();
         $cordelia->locale('en');
         is( $cordelia->name,       'Cordelia Glauca' );
-        is( $cordelia->surname,    'Cordelia' );
+        is( $cordelia->firstname,  'Cordelia' );
         is( $cordelia->familyname, 'Glauca' );
         is( $cordelia->nickname,   'Cordelia' );
         is( $cordelia->birthday,   'December 19' );
@@ -195,7 +195,7 @@ subtest 'Cordelia', sub {
         my $cordelia = Acme::MilkyHolmes::Character::CordeliaGlauca->new();
         is( $cordelia->locale,     'ja' );
         is( $cordelia->name,       'コーデリア・グラウカ' );
-        is( $cordelia->surname,    'コーデリア' );
+        is( $cordelia->firstname,  'コーデリア' );
         is( $cordelia->familyname, 'グラウカ' );
         is( $cordelia->nickname,   'コーデリア' );
         is( $cordelia->birthday,   '12/19' );
@@ -211,7 +211,7 @@ subtest 'Kazumi', sub {
         my $kazumi = Acme::MilkyHolmes::Character::KazumiTokiwa->new();
         $kazumi->locale('en');
         is( $kazumi->name,       'Kazumi Tokiwa' );
-        is( $kazumi->surname,    'Kazumi' );
+        is( $kazumi->firstname,  'Kazumi' );
         is( $kazumi->familyname, 'Tokiwa' );
         is( $kazumi->nickname,   'Kazumi' );
         is( $kazumi->birthday,   undef );
@@ -225,7 +225,7 @@ subtest 'Kazumi', sub {
         my $kazumi = Acme::MilkyHolmes::Character::KazumiTokiwa->new();
         is( $kazumi->locale,     'ja' );
         is( $kazumi->name,       '常盤 カズミ' );
-        is( $kazumi->surname,    'カズミ' );
+        is( $kazumi->firstname,  'カズミ' );
         is( $kazumi->familyname, '常盤' );
         is( $kazumi->nickname,   'カズミ' );
         is( $kazumi->birthday,   undef );
@@ -241,7 +241,7 @@ subtest 'Alice', sub {
         my $alice = Acme::MilkyHolmes::Character::AliceMyojingawa->new();
         $alice->locale('en');
         is( $alice->name,       'Alice Myojingawa' );
-        is( $alice->surname,    'Alice' );
+        is( $alice->firstname,  'Alice' );
         is( $alice->familyname, 'Myojingawa' );
         is( $alice->nickname,   'Alice' );
         is( $alice->birthday,   undef );
@@ -255,7 +255,7 @@ subtest 'Alice', sub {
         my $alice = Acme::MilkyHolmes::Character::AliceMyojingawa->new();
         is( $alice->locale,     'ja' );
         is( $alice->name,       '明神川 アリス' );
-        is( $alice->surname,    'アリス' );
+        is( $alice->firstname,  'アリス' );
         is( $alice->familyname, '明神川' );
         is( $alice->nickname,   'アリス' );
         is( $alice->birthday,   undef );
