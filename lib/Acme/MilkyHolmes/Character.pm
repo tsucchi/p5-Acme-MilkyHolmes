@@ -5,6 +5,7 @@ use Data::Section::Simple;
 use Localizer::Resource;
 use Localizer::Style::Gettext;
 use YAML::Tiny;
+use utf8;
 
 has localizer => (
     is  => 'ro',
@@ -23,7 +24,20 @@ has common => (
 
 sub name {
     my ($self) = @_;
-    return $self->_localized_field('name');
+
+    my $sep = $self->_localized_field('name_separator');
+    $sep = ' ' if ( !defined $sep );
+
+    if ( defined $self->_localized_field('name') ) {
+        return $self->_localized_field('name');
+    }
+    elsif ( $self->locale eq 'ja' ) {
+        if( defined $sep && $sep eq '・' ) {
+            return $self->surname . $sep . $self->familyname;
+        }
+        return $self->familyname . $sep . $self->surname;
+    }
+    return $self->surname . $sep . $self->familyname;
 }
 
 sub surname {

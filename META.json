@@ -54,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tsucchi/p5-Acme-MilkyHolmes/issues"
+      },
+      "homepage" : "https://github.com/tsucchi/p5-Acme-MilkyHolmes",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tsucchi/p5-Acme-MilkyHolmes.git",
+         "web" : "https://github.com/tsucchi/p5-Acme-MilkyHolmes"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:TSUCCHI"
 }

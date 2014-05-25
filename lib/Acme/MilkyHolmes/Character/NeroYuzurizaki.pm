@@ -14,7 +14,6 @@ color: yellow
 
 @@ en
 ---
-name: Nero Yuzurizaki
 surname: Nero
 familyname: Yuzurizaki
 birthday: August 28
@@ -23,7 +22,6 @@ toys: Direct Hack
 
 @@ ja
 ---
-name: 譲崎 ネロ
 surname: ネロ
 familyname: 譲崎
 birthday: 8/28

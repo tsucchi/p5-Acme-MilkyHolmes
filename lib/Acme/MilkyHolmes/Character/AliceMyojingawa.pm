@@ -17,7 +17,6 @@ color_enable: 0
 
 @@ en
 ---
-name: Alice Myojingawa
 surname: Alice
 familyname: Myojingawa
 birthday:
@@ -26,7 +25,6 @@ toys: Bound
 
 @@ ja
 ---
-name: 明神川 アリス
 surname: アリス
 familyname: 明神川
 birthday:
