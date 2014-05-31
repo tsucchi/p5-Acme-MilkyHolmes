@@ -22,6 +22,8 @@ has common => (
     is => 'ro',
 );
 
+no Mouse;
+
 sub name {
     my ($self) = @_;
 
@@ -97,9 +99,5 @@ sub BUILD {
         $self->{localizer}->{$section_name} = $localizer;
     }
 }
-
-
-
-__PACKAGE__->meta->make_immutable();
 
 1;

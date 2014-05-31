@@ -4,7 +4,7 @@ extends 'Acme::MilkyHolmes::Group::MilkyHolmes';
 
 use utf8;
 
-__PACKAGE__->meta->make_immutable();
+no Mouse;
 
 1;
 
