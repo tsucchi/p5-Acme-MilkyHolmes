@@ -101,3 +101,59 @@ sub BUILD {
 }
 
 1;
+__END__
+
+=encoding utf-8
+
+=for stopwords ja
+
+=head1 NAME
+
+Acme::MilkyHolmes::Character - Character base class for Milky Holmes
+
+=head1 SYNOPSIS
+
+    use strict;
+    use warnings;
+    use utf8;
+    use Acme::MilkyHolmes::SherlockShellingford;
+
+    my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
+    $sherlock->locale('en');
+    $sherlock->name;       # => 'Sherlock Shellingford'
+    $sherlock->firstname;  # => 'Sherlock'
+    $sherlock->familyname; # => 'Shellingford'
+    $sherlock->nickname;   # => 'Sheryl'
+    $sherlock->birthday;   # => 'March 31'
+    $sherlock->voiced_by;  # => 'Suzuko Mimori'
+
+=head1 METHODS
+
+=head2 C<name>
+
+=head2 C<firstname>
+
+=head2 C<familyname>
+
+=head2 C<nickname>
+
+=head2 C<birthday>
+
+=head2 C<voiced_by>
+
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * Characters in Milky Holmes (Wikipedia - ja)
+
+L<http://ja.wikipedia.org/wiki/%E6%8E%A2%E5%81%B5%E3%82%AA%E3%83%9A%E3%83%A9_%E3%83%9F%E3%83%AB%E3%82%AD%E3%82%A3%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9>
+
+=item * Milky Holmes (Wikipedia - en)
+
+L<http://en.wikipedia.org/wiki/Tantei_Opera_Milky_Holmes>
+
+=back
+
+=cut

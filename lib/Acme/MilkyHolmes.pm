@@ -56,11 +56,11 @@ __END__
 
 =encoding utf-8
 
-=for stopwords ja seikai ha hitotsu janai
+=for stopwords ja
 
 =head1 NAME
 
-Acme::MilkyHolmes - There's more than one way to do it!(seikai ha hitotsu! janai!!)
+Acme::MilkyHolmes - There's more than one way to do it!(SEIKAI HA HITOTSU! JANAI!!)
 
 =head1 SYNOPSIS
 

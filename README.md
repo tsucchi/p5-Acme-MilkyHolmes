@@ -1,6 +1,6 @@
 # NAME
 
-Acme::MilkyHolmes - There's more than one way to do it!(seikai ha hitotsu! janai!!)
+Acme::MilkyHolmes - There's more than one way to do it!(SEIKAI HA HITOTSU! JANAI!!)
 
 # SYNOPSIS
 
