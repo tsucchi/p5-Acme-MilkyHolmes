@@ -2,6 +2,8 @@ Revision history for Perl extension Acme-MilkyHolmes
 
 {{$NEXT}}
 
+    - return sufficient Kazumi's voiced_by (issue #2)
+
 0.01 2014-06-07T05:07:55Z
 
     - original version
