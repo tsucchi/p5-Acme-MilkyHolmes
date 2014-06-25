@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent qw(Exporter);
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 use Acme::MilkyHolmes::Character::SherlockShellingford;
 use Acme::MilkyHolmes::Character::NeroYuzurizaki;
