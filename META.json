@@ -58,6 +58,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::MockTime" : "0",
             "Test::More" : "0.98"
          }
       }
