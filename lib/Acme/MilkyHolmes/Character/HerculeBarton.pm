@@ -18,6 +18,7 @@ familyname: Barton
 nickname: Elly
 birthday: October 21
 voiced_by: Mikoi Sasaki
+nickname_voiced_by: mikoron
 toys: Tri-Ascend
 
 @@ ja
@@ -26,5 +27,6 @@ familyname: バートン
 nickname: エリー
 birthday: 10/21
 voiced_by: 佐々木 未来
+nickname_voiced_by: みころん
 toys: トライアセンド
 name_separator: ・
