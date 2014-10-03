@@ -30,5 +30,5 @@ firstname: アリス
 familyname: 明神川
 birthday:
 voiced_by: 伊藤 彩沙
-nickname_voiced_by: 伊藤ちゃん
+nickname_voiced_by: 彩沙
 toys: バウンド

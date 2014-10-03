@@ -18,7 +18,7 @@ firstname: Cordelia
 familyname: Glauca
 birthday: December 19
 voiced_by: Izumi Kitta
-nickname_voiced_by: Izusama
+nickname_voiced_by: izusama
 toys: Hyper Sensitive
 
 @@ ja

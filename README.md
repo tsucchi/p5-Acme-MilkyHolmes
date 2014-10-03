@@ -20,14 +20,15 @@ Acme::MilkyHolmes - There's more than one way to do it!(SEIKAI HA HITOTSU! JANAI
     # create character instance directly
     my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
     $sherlock->locale('en');
-    $sherlock->name;       # => 'Sherlock Shellingford'
-    $sherlock->firstname;  # => 'Sherlock'
-    $sherlock->familyname; # => 'Shellingford'
-    $sherlock->nickname;   # => 'Sheryl'
-    $sherlock->birthday;   # => 'March 31'
-    $sherlock->voiced_by;  # => 'Suzuko Mimori'
-    $sherlock->toys;       # => 'Psychokinesis'
-    $sherlock->color;      # => 'pink'
+    $sherlock->name;               # => 'Sherlock Shellingford'
+    $sherlock->firstname;          # => 'Sherlock'
+    $sherlock->familyname;         # => 'Shellingford'
+    $sherlock->nickname;           # => 'Sheryl'
+    $sherlock->birthday;           # => 'March 31'
+    $sherlock->voiced_by;          # => 'Suzuko Mimori'
+    $sherlock->nickname_voiced_by; # => 'mimorin'
+    $sherlock->toys;               # => 'Psychokinesis'
+    $sherlock->color;              # => 'pink'
 
     # fetch each team members
     use Acme::MilkyHolmes qw($MilkyHolmes $MilkyHolmesFeathers $MilkyHolmesSisters);

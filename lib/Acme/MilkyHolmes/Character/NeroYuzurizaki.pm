@@ -27,5 +27,5 @@ firstname: ネロ
 familyname: 譲崎
 birthday: 8/28
 voiced_by: 徳井 青空
-nickname_voiced_by: 徳さん
+nickname_voiced_by: そらまる
 toys: ダイレクトハック

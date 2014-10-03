@@ -142,7 +142,7 @@ subtest 'Nero', sub {
         is( $nero->nickname,           'ネロ' );
         is( $nero->birthday,           '8/28' );
         is( $nero->voiced_by,          '徳井 青空' );
-        is( $nero->nickname_voiced_by, '徳さん' );
+        is( $nero->nickname_voiced_by, 'そらまる' );
         is( $nero->toys,               'ダイレクトハック' );
         is( $nero->color,              'yellow' );
         ok( $nero->color_enable );
@@ -192,7 +192,7 @@ subtest 'Cordelia', sub {
         is( $cordelia->nickname,           'Cordelia' );
         is( $cordelia->birthday,           'December 19' );
         is( $cordelia->voiced_by,          'Izumi Kitta' );
-        is( $cordelia->nickname_voiced_by, 'Izusama' );
+        is( $cordelia->nickname_voiced_by, 'izusama' );
         is( $cordelia->toys,               'Hyper Sensitive' );
         is( $cordelia->color,              'blue' );
         ok( $cordelia->color_enable );
@@ -271,7 +271,7 @@ subtest 'Alice', sub {
         is( $alice->nickname,           'アリス' );
         is( $alice->birthday,           undef );
         is( $alice->voiced_by,          '伊藤 彩沙' );
-        is( $alice->nickname_voiced_by, '伊藤ちゃん' );
+        is( $alice->nickname_voiced_by, '彩沙' );
         is( $alice->toys,               'バウンド' );
         is( $alice->color,              'white' );
         ok( !$alice->color_enable ); # default disable
