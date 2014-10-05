@@ -70,6 +70,11 @@ sub voiced_by {
     return $self->_localized_field('voiced_by');
 }
 
+sub nickname_voiced_by {
+    my ($self) = @_;
+    return $self->_localized_field('nickname_voiced_by');
+}
+
 sub _localized_field {
     my ($self, $name) = @_;
     if ( exists $self->localizer->{ $self->locale } ) {

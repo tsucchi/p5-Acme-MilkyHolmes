@@ -21,6 +21,7 @@ firstname: Alice
 familyname: Myojingawa
 birthday:
 voiced_by: Ayasa Itoh
+nickname_voiced_by: ayasa
 toys: Bound
 
 @@ ja
@@ -29,4 +30,5 @@ firstname: アリス
 familyname: 明神川
 birthday:
 voiced_by: 伊藤 彩沙
+nickname_voiced_by: 彩沙
 toys: バウンド

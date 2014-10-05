@@ -33,6 +33,7 @@ firstname: Kazumi
 familyname: Tokiwa
 birthday:
 voiced_by: Aimi
+nickname_voiced_by: aimin
 voiced_by_before: Aimi Terakawa
 toys: Arrow
 
@@ -42,5 +43,6 @@ firstname: カズミ
 familyname: 常盤
 birthday:
 voiced_by: 愛美
+nickname_voiced_by: あいみん
 voiced_by_before: 寺川 愛美
 toys: アロー
