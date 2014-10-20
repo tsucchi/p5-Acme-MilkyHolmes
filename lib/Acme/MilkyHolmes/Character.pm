@@ -121,7 +121,7 @@ Acme::MilkyHolmes::Character - Character base class for Milky Holmes
     use strict;
     use warnings;
     use utf8;
-    use Acme::MilkyHolmes::SherlockShellingford;
+    use Acme::MilkyHolmes::Character::SherlockShellingford;
 
     my $sherlock = Acme::MilkyHolmes::Character::SherlockShellingford->new();
     $sherlock->locale('en');
