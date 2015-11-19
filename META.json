@@ -76,7 +76,7 @@
          "web" : "https://github.com/tsucchi/p5-Acme-MilkyHolmes"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_authority" : "cpan:TSUCCHI",
    "x_contributors" : [
       "htk291 <htk0129@gmail.com>",
