@@ -222,7 +222,7 @@ subtest 'Kazumi', sub {
         is( $kazumi->firstname,          'Kazumi' );
         is( $kazumi->familyname,         'Tokiwa' );
         is( $kazumi->nickname,           'Kazumi' );
-        is( $kazumi->birthday,           undef );
+        is( $kazumi->birthday,           'November 20' );
         is( $kazumi->voiced_by,          'Aimi' );
         is( $kazumi->nickname_voiced_by, 'aimin' );
         is( $kazumi->toys,               'Arrow' );
@@ -237,7 +237,7 @@ subtest 'Kazumi', sub {
         is( $kazumi->firstname,          'カズミ' );
         is( $kazumi->familyname,         '常盤' );
         is( $kazumi->nickname,           'カズミ' );
-        is( $kazumi->birthday,           undef );
+        is( $kazumi->birthday,           '11/20' );
         is( $kazumi->voiced_by,          '愛美' );
         is( $kazumi->nickname_voiced_by, 'あいみん' );
         is( $kazumi->toys,               'アロー' );
