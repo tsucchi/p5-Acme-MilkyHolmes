@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tsucchi/p5-Acme-MilkyHolmes.png?branch=master)](https://travis-ci.org/tsucchi/p5-Acme-MilkyHolmes) [![Coverage Status](https://coveralls.io/repos/tsucchi/p5-Acme-MilkyHolmes/badge.png?branch=master)](https://coveralls.io/r/tsucchi/p5-Acme-MilkyHolmes?branch=master)
+[![Build Status](https://travis-ci.org/tsucchi/p5-Acme-MilkyHolmes.svg?branch=master)](https://travis-ci.org/tsucchi/p5-Acme-MilkyHolmes) [![Coverage Status](https://img.shields.io/coveralls/tsucchi/p5-Acme-MilkyHolmes/master.svg?style=flat)](https://coveralls.io/r/tsucchi/p5-Acme-MilkyHolmes?branch=master)
 # NAME
 
 Acme::MilkyHolmes - There's more than one way to do it!(SEIKAI HA HITOTSU! JANAI!!)
