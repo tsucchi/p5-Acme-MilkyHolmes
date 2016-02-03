@@ -254,7 +254,7 @@ subtest 'Alice', sub {
         is( $alice->firstname,          'Alice' );
         is( $alice->familyname,         'Myojingawa' );
         is( $alice->nickname,           'Alice' );
-        is( $alice->birthday,           undef );
+        is( $alice->birthday,           'June 3' );
         is( $alice->voiced_by,          'Ayasa Itoh' );
         is( $alice->nickname_voiced_by, 'ayasa' );
         is( $alice->toys,               'Bound' );
@@ -269,7 +269,7 @@ subtest 'Alice', sub {
         is( $alice->firstname,          'アリス' );
         is( $alice->familyname,         '明神川' );
         is( $alice->nickname,           'アリス' );
-        is( $alice->birthday,           undef );
+        is( $alice->birthday,           '6/3' );
         is( $alice->voiced_by,          '伊藤 彩沙' );
         is( $alice->nickname_voiced_by, '彩沙' );
         is( $alice->toys,               'バウンド' );
